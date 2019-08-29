@@ -8,8 +8,7 @@ from sklearn.metrics import mean_squared_error
 
 
 
-# url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
-# names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
+
 dataframe = pd.read_csv('validation.data')
 array = dataframe.values
 X = array[:,0:8]
