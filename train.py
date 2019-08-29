@@ -10,6 +10,7 @@ import pickle
 url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 dataframe = pd.read_csv(url, names=names)
+dataframe.to_csv("validation.data", index = False)
 array = dataframe.values
 X = array[:,0:8]
 Y = array[:,8]
