@@ -45,4 +45,6 @@ python validate.py
 Primero ejecutar:
 git clone https://github.com/source_code_repository y entrar al directorio.
 
-a continuación: ./setup.sh (requiere anaconda en la máquina local)
+a continuación: 
+chmod 755 setup.sh
+./setup.sh (requiere anaconda en la máquina local)
